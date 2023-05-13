@@ -1,0 +1,44 @@
+.root {
+  margin: 15px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(0, 102, 255),
+    rgb(248, 173, 214)
+  );
+}
+
+li {
+  font-size: 18px;
+}
+
+/*стили для ответа на 7 вопрос*/
+.li {
+  list-style-type: none;
+  font-size: 12pt;
+  margin-bottom: 15px;
+}
+
+.mail {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  background: #d8f1f8;
+}
+
+.mail h2 {
+  margin-left: 30px;
+}
+
+.input {
+  font-size: 20pt;
+}
+
+input:focus {
+  background-color: lightyellow;
+}
+
+.rq {
+  color: #ff0000;
+  font-size: 10pt;
+}
